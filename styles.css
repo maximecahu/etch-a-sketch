@@ -1,0 +1,42 @@
+#container {
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+
+
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: center;
+}
+
+.cell {
+    width: 20px;
+    height: 20px;
+    border: solid 1px black;
+    background-color: white;
+}
+
+.cell-hovered {
+    background-color: #000000;
+    width: 20px;
+    height: 20px;
+    border: solid 1px black;
+}
+
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    width: 5rem;
+    height: 3rem;
+}
