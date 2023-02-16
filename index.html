@@ -11,10 +11,23 @@
 </head>
 
 <body>
+    <div class="page-title">Etch-a-Sketch</div>
+    <div class="btn-container">
+        <button class="btn black button-30" role="button" onclick="blackOn()">Black</button>
+        <button class="btn rgb button-30" role="button" onclick="rgbOn()">RGB</button>
+        <button class="btn eraser button-30" role="button" onclick="eraser()">Eraser</button>
+    </div>
     <div id="container">
         <div class="column"></div>
     </div>
-    <button onclick="refreshPage()">Clear</button>
+    <div class="btn-container btn-container2">
+        <button class="btn button-30" role="button" onclick="bigSquares()">Big Squares</button>
+        <button class="btn button-30" role="button" onclick="mediumSquares()">Medium Squares</button>
+        <button class="btn button-30" role="button" onclick="smallSquares()">Small Squares</button>
+        <button class="btn button-30" role="button" onclick="custom()">Let me choose</button>
+    </div>
+    <button class="btn button-30" role="button" onclick="refreshPage()">Clear</button>
+    <div class="bottom">Copyright © 2023 maximecahu</div>
     <script src="script.js"></script>
 </body>
 
